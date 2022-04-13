@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import NxWelcome from './nx-welcome';
+import Button from './button/button';
 
 import { Route, Link } from 'react-router-dom';
 
@@ -35,6 +36,7 @@ export function App() {
           <div>
             This is the generated root route.{' '}
             <Link to="/page-2">Click here for page 2.</Link>
+            <Button />
           </div>
         )}
       />
