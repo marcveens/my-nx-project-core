@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import NxWelcome from './nx-welcome';
 import Button from './button/button';
+import { Button as CoreButton } from '@my-nx-project-core/core';
 
 import { Route, Link } from 'react-router-dom';
 
@@ -46,6 +47,7 @@ export function App() {
         render={() => (
           <div>
             <Link to="/">Click here to go back to root page.</Link>
+            <CoreButton />
           </div>
         )}
       />
